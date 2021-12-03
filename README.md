@@ -16,7 +16,7 @@ iOS Project ကို ရေးဖို့အတွက် Xcode လိုပါ
 
 ၂. App ဖန်တီးမှာ ဖြစ်တာကြောင့် Appကို ရွေးပါ။ 
 
-![Screenshot 2021-12-03 at 4.07.29 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/blob/main/images/1.png)
+![Screenshot 2021-12-03 at 4.07.29 PM](https://github.com/PoePoeMyintSwe/BlinkDetection/blob/main/images/1.png?raw=true)
 
 ၃. Next ကို နှိပ်၍ Project အတွက် လိုအပ်တာတွေ ဖြည့်ပါ။ ကျွန်တော်ကတော့ BlinkDetection လို့ ပေးထားပါတယ်။ Organization Identifierကတော့ အဆင်ပြေတာ ထည့်လို့ ရပါတယ်။ iPhoneမှာ စမ်းမှာဖြစ်လို့ Teamတော့ လိုပါတယ်။ မရှိရင်တော့ စမ်းလို့ မရပေမဲ့ လိုက်လုပ်လို့တော့ ရပါတယ်။ ဒီ Project မှာ UIKit သုံးပြီး ရေးမှာ ဖြစ်လို့ Storyboardရွေးထားပါတယ်။  iOS 13 အထက် Device တွေကိုပဲ target ထားချင်ရင် SwiftUI သုံးလို့ရပါတယ်။
 
