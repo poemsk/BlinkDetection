@@ -1,6 +1,6 @@
 ## Blink Detection using Vision Framework in iOS
 
-ဒီ workshop မှာ  Computer Visionနဲ့ ဆိုင်တဲ့ use case တွေမှာ Appleရဲ့ Vision Framework ကို ဘယ်လို အသုံးပြုလို့ရမလဲ လေ့လာလို့ရမှာ ဖြစ်ပါတယ်။ 
+ဒီ example မှာ  Computer Visionနဲ့ ဆိုင်တဲ့ use case တွေမှာ Appleရဲ့ Vision Framework ကို ဘယ်လို အသုံးပြုလို့ရမလဲ လေ့လာလို့ရမှာ ဖြစ်ပါတယ်။ Machine Learning နဲ့ အကျွမ်းတဝင်ဖြစ်စရာ မလိုဘဲ လွယ်လွယ်ကူကူ သူနဲ့ဆိုင်တဲ့ အလုပ်တွေကို လွယ်လွယ်ကူကူ လုပ်လို့ရတာ တွေ့ရမှာ ဖြစ်ပါတယ်။ 
 
 #### ၁။ Projectက ဘာအကြောင်းလဲ
 
@@ -16,15 +16,15 @@ iOS Project ကို ရေးဖို့အတွက် Xcode လိုပါ
 
 ၂. App ဖန်တီးမှာ ဖြစ်တာကြောင့် Appကို ရွေးပါ။ 
 
-![Screenshot 2021-12-03 at 4.07.29 PM](/Users/poepoe/Desktop/blinkdetection/1.png)
+![Screenshot 2021-12-03 at 4.07.29 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/1.png?token=AB2EOJP2DETQGUYX4ED6GH3BVKSMQ)
 
 ၃. Next ကို နှိပ်၍ Project အတွက် လိုအပ်တာတွေ ဖြည့်ပါ။ ကျွန်တော်ကတော့ BlinkDetection လို့ ပေးထားပါတယ်။ Organization Identifierကတော့ အဆင်ပြေတာ ထည့်လို့ ရပါတယ်။ iPhoneမှာ စမ်းမှာဖြစ်လို့ Teamတော့ လိုပါတယ်။ မရှိရင်တော့ စမ်းလို့ မရပေမဲ့ လိုက်လုပ်လို့တော့ ရပါတယ်။ ဒီ Project မှာ UIKit သုံးပြီး ရေးမှာ ဖြစ်လို့ Storyboardရွေးထားပါတယ်။  iOS 13 အထက် Device တွေကိုပဲ target ထားချင်ရင် SwiftUI သုံးလို့ရပါတယ်။
 
-![Screenshot 2021-12-03 at 4.20.09 PM](/Users/poepoe/Desktop/blinkdetection/2.png)
+![Screenshot 2021-12-03 at 4.20.09 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/2.png?token=AB2EOJPWUSLNVXMGBSFK3NDBVKSRO)
 
 ၄. နောက်အဆင့်မှာတော့ project သိမ်းမဲ့ နေရာရွေးပြီး Create နှိပ်လိုက်ရုံပါပဲ။ 
 
-![Screenshot 2021-12-03 at 4.25.49 PM](/Users/poepoe/Desktop/blinkdetection/3.png)
+![Screenshot 2021-12-03 at 4.25.49 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/3.png?token=AB2EOJIY3DO5J6ZOTMEWTLLBVKSSU)
 
 #### ၄။ စရေးမယ်
 
@@ -242,11 +242,11 @@ projectကို run ကြည့်တဲ့အခါ မျက်နှာက�
 
 ကင်မရာ feedကနေ မျက်လုံး ရလာပြီဆိုရင် မျက်လုံး မှိတ်လား မမှိတ်လား စစ်လို့ ရပါပြီ။  မျက်လုံးမှာ normalized points ခြောက်ခု ရှိပြီး မျက်လုံးမှိတ်သွားတဲ့အချိန်မှာ အပေါ်အောက်  နှစ်ခုကြား အကွာအဝေးက လျော့နည်းသွားမှာ ဖြစ်ပါတယ်။ 
 
-![EARsd](/Users/poepoe/Desktop/blinkdetection/5.png)
+![EAR](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/5.png?token=AB2EOJPFEPJN6TAW3JY5UGDBVKSUK)
 
 ၂၀၁၆မှာ ထုတ်ဝေခဲ့တဲ့ Real-Time Eye Blink Detection using Facial Landmarks ဆိုတဲ့ ပေပါအရ Eye Aspect Ratio တွက်တဲ့ formula က ဒီလိုရှိပါတယ်။
 
-![Formula](/Users/poepoe/Desktop/blinkdetection/4.png)
+![Formula](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/4.png?token=AB2EOJIZFDBPCQY4ZR54JHLBVKSWE)
 
 အရင်ဆုံး Point နှစ်ခုကြားက အကွာအဝေး ရှာတဲ့ formulaကို CGPointမှာ extension အနေနဲ့ ရေးမယ်။ 
 
@@ -385,4 +385,15 @@ extension ViewController: BlinkDetectorDelegate {
 }
 ```
 
-ပြီးရင် `detectFace` ဆိုတဲ့ function 
+ပြီးရင် `detectFace` ဆိုတဲ့ function မှာ ခေါ်ပြီး သုံးရုံပါပဲ။ 
+
+```swift
+ guard let observation = results.first else { return }
+ self.blinkDetector.detectBlink(of: observation)
+```
+
+#### ၁၀။ ဂုဏ်ယူပါတယ်
+
+အခုဆိုရင် ကျွန်တော်တို့ Appleရဲ့ ရှိပြီးသား framework တွေကို သုံးပြီး Camera Live Feedကနေ Liveliness စစ်တဲ့ feature တစ်ခုဖြစ်တဲ့ မျက်လုံးမှိတ်ပြီး ပြန်ဖွင့်တာကို စစ်တာကို ရေးခဲ့ပြီး ဖြစ်ပါတယ်။ Vision framework ဟာ တခြား အသုံးဝင်တာတွေ အများကြီး ရှိသေးတာကြောင့် ကိုယ် ညဏ်ကွန့်ချင်သလို့ သုံးလို့ရပါတယ်။ ပြီးတော့ Core ML ကို သုံးပြီး ML Model တွေကို ဖုန်းမှာလည်း deploy လုပ်လို့ ရပါသေးတယ်။ ဒီproject စကြည့်ရင်း လေ့လာဖို့ အသုံးဝင်မယ် မျှော်လင့်ပါတယ်။​ 
+
+Happy Coding!!!
