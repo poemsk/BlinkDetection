@@ -16,15 +16,15 @@ iOS Project ကို ရေးဖို့အတွက် Xcode လိုပါ
 
 ၂. App ဖန်တီးမှာ ဖြစ်တာကြောင့် Appကို ရွေးပါ။ 
 
-![Screenshot 2021-12-03 at 4.07.29 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/1.png)
+![Screenshot 2021-12-03 at 4.07.29 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/blob/main/images/1.png)
 
 ၃. Next ကို နှိပ်၍ Project အတွက် လိုအပ်တာတွေ ဖြည့်ပါ။ ကျွန်တော်ကတော့ BlinkDetection လို့ ပေးထားပါတယ်။ Organization Identifierကတော့ အဆင်ပြေတာ ထည့်လို့ ရပါတယ်။ iPhoneမှာ စမ်းမှာဖြစ်လို့ Teamတော့ လိုပါတယ်။ မရှိရင်တော့ စမ်းလို့ မရပေမဲ့ လိုက်လုပ်လို့တော့ ရပါတယ်။ ဒီ Project မှာ UIKit သုံးပြီး ရေးမှာ ဖြစ်လို့ Storyboardရွေးထားပါတယ်။  iOS 13 အထက် Device တွေကိုပဲ target ထားချင်ရင် SwiftUI သုံးလို့ရပါတယ်။
 
-![Screenshot 2021-12-03 at 4.20.09 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/2.png)
+![Screenshot 2021-12-03 at 4.20.09 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/blob/main/images/2.png)
 
 ၄. နောက်အဆင့်မှာတော့ project သိမ်းမဲ့ နေရာရွေးပြီး Create နှိပ်လိုက်ရုံပါပဲ။ 
 
-![Screenshot 2021-12-03 at 4.25.49 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/3.png)
+![Screenshot 2021-12-03 at 4.25.49 PM](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/blob/main/images/3.png)
 
 #### ၄။ စရေးမယ်
 
@@ -242,11 +242,11 @@ projectကို run ကြည့်တဲ့အခါ မျက်နှာက�
 
 ကင်မရာ feedကနေ မျက်လုံး ရလာပြီဆိုရင် မျက်လုံး မှိတ်လား မမှိတ်လား စစ်လို့ ရပါပြီ။  မျက်လုံးမှာ normalized points ခြောက်ခု ရှိပြီး မျက်လုံးမှိတ်သွားတဲ့အချိန်မှာ အပေါ်အောက်  နှစ်ခုကြား အကွာအဝေးက လျော့နည်းသွားမှာ ဖြစ်ပါတယ်။ 
 
-![EAR](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/5.png?token=AB2EOJPFEPJN6TAW3JY5UGDBVKSUK)
+![EAR](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/blob/main/images/5.png)
 
 ၂၀၁၆မှာ ထုတ်ဝေခဲ့တဲ့ Real-Time Eye Blink Detection using Facial Landmarks ဆိုတဲ့ ပေပါအရ Eye Aspect Ratio တွက်တဲ့ formula က ဒီလိုရှိပါတယ်။
 
-![Formula](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/main/4.png?token=AB2EOJIZFDBPCQY4ZR54JHLBVKSWE)
+![Formula](https://raw.githubusercontent.com/PoePoeMyintSwe/BlinkDetection/blob/main/images/4.png)
 
 အရင်ဆုံး Point နှစ်ခုကြားက အကွာအဝေး ရှာတဲ့ formulaကို CGPointမှာ extension အနေနဲ့ ရေးမယ်။ 
 
