@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10FB701275AA5AD00614468 /* BlinkDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10FB700275AA5AD00614468 /* BlinkDetector.swift */; };
 		B189B5782756D62F001A5358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189B5772756D62F001A5358 /* AppDelegate.swift */; };
 		B189B57A2756D62F001A5358 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189B5792756D62F001A5358 /* SceneDelegate.swift */; };
 		B189B57C2756D62F001A5358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189B57B2756D62F001A5358 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B10FB700275AA5AD00614468 /* BlinkDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkDetector.swift; sourceTree = "<group>"; };
 		B189B5742756D62F001A5358 /* BlinkDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B189B5772756D62F001A5358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B189B5792756D62F001A5358 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				B189B5772756D62F001A5358 /* AppDelegate.swift */,
 				B189B5792756D62F001A5358 /* SceneDelegate.swift */,
 				B189B57B2756D62F001A5358 /* ViewController.swift */,
+				B10FB700275AA5AD00614468 /* BlinkDetector.swift */,
 				B189B57D2756D62F001A5358 /* Main.storyboard */,
 				B189B5802756D62F001A5358 /* Assets.xcassets */,
 				B189B5822756D62F001A5358 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10FB701275AA5AD00614468 /* BlinkDetector.swift in Sources */,
 				B189B57C2756D62F001A5358 /* ViewController.swift in Sources */,
 				B189B5782756D62F001A5358 /* AppDelegate.swift in Sources */,
 				B189B57A2756D62F001A5358 /* SceneDelegate.swift in Sources */,
@@ -439,8 +443,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NAL74448Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlinkDetection/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ninja.poepoe.BlinkDetection;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.poepoe.blinkdetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,8 +472,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NAL74448Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlinkDetection/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ninja.poepoe.BlinkDetection;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.poepoe.blinkdetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
